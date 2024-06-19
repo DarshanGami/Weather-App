@@ -74,22 +74,22 @@ async function fetchWeatherData(city) {
         // CHANGE BACKGROUND - BY TIMEOFDAY (DAY OR NIGHT) AND CLOUD POSSITION.
         switch(weather_data.weather[0].main){
             case 'Clouds':
-                app.style.backgroundImage = `url(./${timeOfDay}/cloudy.jpg)`;
+                app.style.backgroundImage = `url(./image/${timeOfDay}/cloudy.jpg)`;
                 break;
             case 'Clear':
-                app.style.backgroundImage = `url(./${timeOfDay}/clear.jpg)`;
+                app.style.backgroundImage = `url(./image/${timeOfDay}/clear.jpg)`;
                 break;
             case 'Rain':
-                app.style.backgroundImage = `url(./${timeOfDay}/rainy.jpg)`;
+                app.style.backgroundImage = `url(./image/${timeOfDay}/rainy.jpg)`;
                 break;
             case 'Mist':
-                app.style.backgroundImage = `url(./${timeOfDay}/mist.jpg)`;
+                app.style.backgroundImage = `url(./image/${timeOfDay}/mist.jpg)`;
                 break;
             case 'Snow':
-                app.style.backgroundImage = `url(./${timeOfDay}/snowy.jpg)`;
+                app.style.backgroundImage = `url(./image/${timeOfDay}/snowy.jpg)`;
                 break;
             default :
-                app.style.backgroundImage = `url(./${timeOfDay}/cloudy.jpg)`;
+                app.style.backgroundImage = `url(./image/${timeOfDay}/cloudy.jpg)`;
                 break;
         }
     })
