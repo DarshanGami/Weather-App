@@ -1,12 +1,14 @@
 #  Responsive Design and Images
+
 #### PC view (Day)
-![Day](https://github.com/DarshanGami/Weather-App/assets/169267343/097b198c-7128-4c42-83ce-02981cf90eef)
+![Day](https://github.com/DarshanGami/Weather-App/assets/169267343/1ae74b12-c215-46cb-a335-464574d551d8)
 #### Tablet view
-![SS2](https://github.com/DarshanGami/Weather-App/assets/169267343/94133d36-3259-4db7-8971-47eebf294251)
+![SS2](https://github.com/DarshanGami/Weather-App/assets/169267343/563fb92a-8299-41f8-8ea8-e8e6cd883666)
 #### Mobile view
-![SS1](https://github.com/DarshanGami/Weather-App/assets/169267343/cb3102de-ddb8-48c4-a83f-5c6d89fc9b5c)
+![SS1](https://github.com/DarshanGami/Weather-App/assets/169267343/8ecc7341-3d6f-4492-a97b-c5bccd44ecc6)
 #### PC view (Night)
-![Night](https://github.com/DarshanGami/Weather-App/assets/169267343/fa1c0f1e-44a5-42bb-bd06-cb29543bc79c)
+![Night](https://github.com/DarshanGami/Weather-App/assets/169267343/d7be0b5b-1371-4fc6-820c-082dbf42f2e8)
+
 
 # Weather-App
 
