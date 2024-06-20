@@ -37,7 +37,7 @@ async function fetchWeatherData(city) {
     const URL = `https://api.openweathermap.org/data/2.5/weather?q=${cityInput}&appid=${api_key}`;  // API FORM - OPENWEATHERMAP.
 
 
-    // CONVERT RESPONSE TO JSON FORMAT.
+    // JSON - CONVERT RESPONSE TO STRING FORMAT.
     const weather_data = await fetch(`${URL}`)
     .then(response => response.json())
     .then(weather_data => {
