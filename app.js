@@ -12,7 +12,7 @@ const btn = document.querySelector('.submit');
 
 // INITIALY DEFINE cityInput VAR.
 let cityInput = "Gandhinagar";
-
+app.style.backgroundImage = `url(./image/day/cloudy.jpg)`;
 
 // ADD EVENT LISTENER ON SUBMIT BUTTUN.
 form.addEventListener('submit', (e) => {
@@ -102,4 +102,4 @@ async function fetchWeatherData(city) {
 }
 
 // CALL FUNCTION AND FIND DATA AND CHANGE BACKGROUND.
-fetchWeatherData();
+// fetchWeatherData();
