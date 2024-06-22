@@ -79,7 +79,7 @@ async function fetchWeatherData(city) {
     .catch(error => {
         // console.error('Error fetching weather data:', error);
         alert('City not found, please try again');
-        nameOutput.innerHTML = "Gandhinagar";
+        fetchWeatherData("Gandhinagar");
     });
 }
 
